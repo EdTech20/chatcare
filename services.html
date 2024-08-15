@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Chat-Care Managements</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Chat-Care Managements</h1>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="nav-list" class="nav-list">
+                <li class="close-icon" onclick="toggleMenu()">&#10005;</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="services">
+        <h2 style="color: black;">OUR SERVICES</h2>
+        <div class="service">
+            <i class="fas fa-user-shield"></i>
+            <h3>24 HOURS COMMUNITY MODERATION</h3>
+            <p>Our community managers and moderators will provide 24 hours coverage of the community leaving no room for unhealthy behaviors and conversations among the community.</p>
+        </div>
+        
+        <div class="service">
+            <i class="fas fa-pencil-alt"></i>
+            <h3>NARRATIVES</h3>
+            <p>We help write full projects, or rewrite current ones. A unique or trending project name, a catchy narrative, an exciting ad copy for promotion and callers, Pinksale profile copy, Telegram chat welcome message.</p>
+        </div>
+        
+        <div class="service">
+            <i class="fas fa-robot"></i>
+            <h3>TELEGRAM BOT SET-UP</h3>
+            <p>We provide full setup of bots for project owners who need the service.</p>
+        </div>
+        
+        <div class="service">
+            <i class="fas fa-bullhorn"></i>
+            <h3>SOCIAL MEDIA MANAGEMENT / TWITTER MANAGEMENT</h3>
+            <p>We have a team of professional DeFi social media managers who are highly experienced in handling socials of your projects to ensure maximum visibility and output.</p>
+        </div>
+
+            <div class="service">
+                <i class="fas fa-laptop-code"></i>
+                <h3>WEB DEVELOPMENT</h3>
+                <p>Creating modern and responsive websites tailored to your business needs.</p>
+            </div>
+            
+            <div class="service">
+                <i class="fab fa-ethereum"></i>
+                <h3>SMART CONTRACT DEVELOPMENT</h3>
+                <p>Building decentralized applications and integrating blockchain solutions.</p>
+            </div>
+        
+        
+        <div class="service">
+            <i class="fas fa-bullhorn"></i>
+            <h3>SHILLING / ENGAGEMENTS</h3>
+            <p>We provide a group of 70-100 human shillers who help shill your project on Twitter/X, Telegram, and also engage project’s Twitter posts.</p>
+        </div>
+        
+        <div class="service">
+            <i class="fas fa-comments"></i>
+            <h3>ENGAGERS / CHATTERS</h3>
+            <p>We provide Engagers/Chatters who help to keep your community active and keep conversations going. They help to foster activities on your chat 24 hours depending on your order.</p>
+        </div>
+        
+        <div class="service">
+            <i class="fas fa-microphone-alt"></i>
+            <h3>AMA / VC/ SPACE HOSTING</h3>
+            <p>We have AMA/Space hosts who are experienced and highly knowledgeable in the space.</p>
+        </div>
+        
+        <div class="service">
+            <i class="fas fa-bullseye"></i>
+            <h3>MARKETING</h3>
+            <p>Through our marketing partners we offer marketing and promo services to clients who need them.</p>
+        </div>
+        
+        <div class="service">
+            <i class="fas fa-chart-line"></i>
+            <h3>TRENDING AND LISTING</h3>
+            <p>Through our marketing partners we offer trending and listing services such as coin marketcap and coingecko listings for clients in need of them.</p>
+        </div>
+    </section>
+    <br><br>
+
+    
+    <footer>
+        <p>&copy; 2024 Chat-Care. All rights reserved.</p>
+    </footer>
+
+    <script src="navbar.js"></script>
+
+<script>
+        function toggleMenu() {
+        var navList = document.getElementById('nav-list');
+        if (navList.style.display === "flex") {
+            navList.style.opacity = "0";
+            setTimeout(function() {
+                navList.style.display = "none";
+            }, 300);
+        } else {
+            navList.style.display = "flex";
+            setTimeout(function() {
+                navList.style.opacity = "1";
+            }, 10);
+        }
+    }
+</script>
+    
+</body>
+</html>
